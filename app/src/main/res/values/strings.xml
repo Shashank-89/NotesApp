@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Simple Note</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="color">Color</string>
+    <string name="descending">Descending</string>
+    <string name="asscending">Ascending</string>
+    <string name="notes_screen_title">Notes</string>
+    <string name="note_deleted">Note deleted</string>
+    <string name="undo">Undo</string>
+    <string name="note_title_hint">Enter Note Title…</string>
+    <string name="note_content_hint">Write your note here…</string>
+    <string name="save_note_error">Unable to save Note!!</string>
+    <string name="save_note">Save Note\n</string>
+</resources>
