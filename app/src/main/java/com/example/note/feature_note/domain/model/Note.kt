@@ -19,15 +19,6 @@ data class Note(
     companion object{
         val noteColors = listOf(RedOrange, LightGreen, Violet, BabyBlue, RedPink)
     }
-
-    fun isAnagram(s1: String, s2: String): Boolean {
-        val s1Char = s1.toCharArray()
-        val s2Char = s2.toCharArray()
-        s1Char.sort()
-        s2Char.sort()
-        return String(s1Char) == String(s2Char)
-    }
-
 }
 
 class InvalidNoteException(message: String) : Exception(message)

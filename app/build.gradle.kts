@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mvvm"
+    namespace = "com.example.note"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.mvvm"
+        applicationId = "com.example.note"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -61,6 +61,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    testImplementation("junit:junit:4.12")
+    testImplementation("junit:junit:4.12")
 
     ksp(libs.hilt.compiler)
     ksp(libs.androidx.hilt.compiler)
@@ -83,6 +85,7 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
 
     testImplementation(libs.junit)
+    testImplementation(libs.truth)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
