@@ -61,8 +61,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    testImplementation("junit:junit:4.12")
-    testImplementation("junit:junit:4.12")
 
     ksp(libs.hilt.compiler)
     ksp(libs.androidx.hilt.compiler)
